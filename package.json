@@ -1,0 +1,28 @@
+{
+  "name": "table",
+  "version": "1.0.0",
+  "description": "ES Table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/index.js",
+    "babel": "eslint src/index.js && babel --presets es2015 src/index.js -o build/table.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramsunvtech/table.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramsunvtech/table/issues"
+  },
+  "homepage": "https://github.com/ramsunvtech/table#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "eslint": "^3.13.1"
+  }
+}
